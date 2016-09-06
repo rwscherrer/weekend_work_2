@@ -19,8 +19,6 @@ class Yodel
   def articulate
     "#{segment}" * @count
   end
-
-
 end
 
 

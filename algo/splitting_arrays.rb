@@ -6,9 +6,14 @@ def split_array(array, array_size)
   reps = (array.length / array_size)
 
   reps.times do
-    new_array.push(array.slice(index_count, array_size))
+    new_array << array[index_count, array_size]
     index_count = index_count + array_size
   end
+
+  # reps.times do
+  #   new_array.push(array.slice(index_count, array_size))
+  #   index_count = index_count + array_size
+  # end
   p new_array
 end
 
