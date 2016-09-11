@@ -12,6 +12,9 @@ def palindrome?(string)
 
   string == reversed.join
 
+  # string = string.reverse
+
+
 end
 
 # Driver code - don't touch anything below this line.
